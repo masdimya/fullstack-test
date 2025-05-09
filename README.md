@@ -37,7 +37,7 @@ berikut bentuk arsitektur aplikasi apabila memperoleh data dari API Eksternal
 #### Spesifikasi Route
 1.Buatlah Endpoint: GET `/api/pajak/kendaraan`
 
-Mengembalikan daftar data pajak kendaraan. Pastika endpoint yang dibuat memiliki filter sebagai berikut:
+Mengembalikan daftar data pajak kendaraan. Pastikan endpoint yang dibuat memiliki filter sebagai berikut:
 
 - jenis_kendaraan : mobil atau sepeda motor
   
@@ -141,7 +141,7 @@ Dibawah ini adalah bentuk response dari endpoint  GET `/api/pajak/kendaraan/reka
 ```
 
 
-### B. Frontend - Vue.js atau React
+### B. Frontend - Vue.js/React + Tailwind CSS
 1.Tampilan Rekap
 
 ![alt text](img/rekap.png)
@@ -201,7 +201,7 @@ Ketika klik tombol "Lihat Detail", tampilkan modal atau halaman detail dengan in
 
 ⚠️ Tidak ada endpoint untuk GET detail, anda dapat mengolah data melalui daftar pajak kendaraan untuk mendapatkan detail data
 
-5.Loading state (poin tambahan)
+5.Loading state (Opsional)
 
 Ketika proses fetching data ke backend, buatlah loading state
 
